@@ -1,0 +1,58 @@
+/* general-style-start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general-style-end */
+
+/* hero-start */
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/forest-7774205_1920.jpg");
+    background-position: center;
+    background-size: cover;
+}   
+
+.hero h5{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.hero h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: 67px;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+
+.hero h3{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.newquote-btn button{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quote-left-icon{
+    top:100px;
+    left: 0;
+
+}
+
+.quote-right-icon{
+    right: 0;
+    bottom: 150px;
+}
+
+i{
+    font-size: 70px;
+    color: #f0c1ec;
+}
+/* hero-end */
